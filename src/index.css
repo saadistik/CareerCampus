@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'General Sans';
+  src: url('./assets/fonts/GeneralSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'General Sans', -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+
+  --color-bg: #FFFFFF;
+  --color-surface-alt: #F6F9FC;
+  --color-border: #E3E8EE;
+  --color-ink: #0A2540;
+  --color-ink-soft: #425466;
+  --color-ink-faint: #8792A2;
+  --color-accent: #635BFF;
+  --color-accent-strong: #4B45C6;
+  --color-accent-soft: #EEEDFF;
+  --color-grad-1: #635BFF;
+  --color-grad-2: #F45CC7;
+  --color-grad-3: #FFCF5E;
+  --color-success: #0A8560;
+  --color-success-soft: #E3F5EC;
+  --color-warning: #B0700A;
+  --color-warning-soft: #FBEBD1;
+  --color-danger: #C23A32;
+  --color-danger-soft: #F9E0DE;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+}
