@@ -199,8 +199,8 @@ export function Landing() {
         <div className="mx-auto grid max-w-[1140px] grid-cols-2 gap-8 text-center md:grid-cols-4">
           {[
             ['10', 'assessment questions'],
-            ['5', 'career paths mapped'],
-            ['25', 'weighted skill signals'],
+            ['9', 'career paths mapped'],
+            ['45', 'weighted skill signals'],
             ['Free', 'to get started'],
           ].map(([n, label]) => (
             <div key={label}>
