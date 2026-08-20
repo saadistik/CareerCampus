@@ -9,6 +9,7 @@ const SKILL_OPTIONS = [
   'SQL', 'Python', 'Communication', 'Data visualisation', 'Statistics', 'User interviews', 'Figma',
   'Data analysis', 'Empathy mapping', 'Requirements gathering', 'Process mapping', 'Stakeholder management',
   'JavaScript', 'Problem solving', 'Git', 'System design', 'Roadmapping', 'Prioritisation',
+  'Content creation', 'Social media', 'Excel', 'Organisation', 'Networking',
 ]
 
 function Chip({ label, picked, onClick }: { label: string; picked: boolean; onClick: () => void }) {
